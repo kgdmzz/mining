@@ -3,7 +3,7 @@ while true
 do
   echo "Memulai proses menambang..."
   ore \
-    --rpc https://https://api.mainnet-beta.solana.com/ \
+    --rpc https://zksync-mainnet.g.alchemy.com/v2/0Z48roygdz28JamOezCcXV86RLuRMgFB \
     --keypair ~/.config/solana/id.json \
     --priority-fee 5000000 \
     mine \
